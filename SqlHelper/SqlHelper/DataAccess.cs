@@ -4,11 +4,11 @@ using System.Data.SqlClient;
 
 namespace SqlHelper
 {
-    public class SqlHelper
+    public class DataAccess
     {
         private readonly string ConnectionString;
         
-        public SqlHelper(string connectionString)
+        public DataAccess(string connectionString)
         {
             ConnectionString = connectionString;
         }
